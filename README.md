@@ -79,17 +79,7 @@ flask run
 
 
 
-## 🚀 Future Enhancements
-- User authentication & role-based access
-- API integration for third-party services
-- Export reports in PDF/Excel
-- Deploying on a cloud platform
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
-## 📜 License
-This project is licensed under the MIT License.
 
 
 
