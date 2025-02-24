@@ -7,14 +7,14 @@ This is a **Flask-based Inventory Management Web Application** that allows users
 - **Frontend:** HTML, CSS, Bootstrap, JavaScript
 - **Backend:** Flask (Python), SQLAlchemy
 - **Database:** MySQL
-- **Hosting:** Local development (Can be deployed on Heroku, AWS, or any cloud platform)
+
 
 ## ✨ Features
 - **Products Management**: Add, edit, delete products
 - **Locations Management**: Add, edit, delete locations
 - **Product Movements**: Track product transfers between locations
 - **Balance Report**: View inventory balance at different locations
-- **Pagination & Filtering**: Easily browse through records
+
 
 ## 📥 Installation Guide
 ### 1️⃣ Prerequisites
@@ -23,22 +23,12 @@ Ensure you have the following installed:
 - MySQL Database
 - Flask and required dependencies
 
-### 2️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/inventory-management.git
-cd inventory-management
-```
 
-### 3️⃣ Set Up Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
 
-### 4️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+
+
+
+
 
 ### 5️⃣ Configure Database
 - Create a MySQL database and update `config.py` with your credentials:
@@ -60,15 +50,31 @@ flask run
 
 ## 📸 Screenshots
 ### Dashboard Page
-![Dashboard](static/screenshots/./dashboard.jpg)
-### Product page
-![Product](static/screenshots/./product.jpg)
-### Location page
-![location](static/screenshots/./location.jpg)
-### Transfers page
-![Transfers](static/screenshots/./transfers.jpg)
-### Balance page
-![Balance](static/screenshots/./balance.jpg)
+![Dashboard Page](./flaskinventory/static/./screenshots/dashboard.jpg)
+
+
+
+### Product Page
+![Product page](./flaskinventory/static/screenshots/products.png)
+
+
+### Location Page
+
+![Location page](./flaskinventory/static/screenshots/./location.jpg)
+
+### Transfer Page
+
+![Transfer page](./flaskinventory/static/screenshots/Transfers.jpg)
+
+
+### Balance Page
+![balance page](./flaskinventory/static/screenshots/balance.jpg)
+
+
+
+
+
+
 
 
 
