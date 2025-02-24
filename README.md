@@ -35,12 +35,7 @@ Ensure you have the following installed:
 ```python
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://username:password@localhost/inventory_db'
 ```
-- Initialize the database:
-```bash
-flask db init
-flask db migrate -m "Initial migration."
-flask db upgrade
-```
+
 
 ### 6️⃣ Run the Application
 ```bash
