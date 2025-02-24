@@ -1,0 +1,34 @@
+balance.html
+
+{% extends "overview.html" %}
+{% block content %}
+
+<div class="container mt-4">
+    <h1 class="text-center">Balance Table</h1>
+
+    <!-- Balance Data Table -->
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover text-center">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Location Name</th>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in balance %}
+                <tr>
+                    <td>{{ row.bid }}</td>
+                    <td>{{ row.location }}</td>
+                    <td>{{ row.product }}</td>
+                    <td>{{ row.quantity }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{% endblock %}
